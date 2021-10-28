@@ -41,7 +41,31 @@ Lógicos
 Comparación
 - == Compara dos valores y te dice si son iguales o no.
 - != Compara dos valores y te dice sin son diferentes o no.
-- > Compara si es mayor que otro valor.
-- > Compara si es menor que otro valor.
-- >= igual o mayor que el valor a comparar.
+- "> Compara si es mayor que otro valor.
+- "> Compara si es menor que otro valor.
+- ">= igual o mayor que el valor a comparar.
 - <= igual o menor que el valor a comparar.
+
+Trabajando con texto: cadenas de caracteres
+--------------------------------------------
+Es una función especial para un tipo de dato en particular.
+nombre = 'jimmy ' 
+- .upper() convertir el texto en mayúsculas
+    nombre = nombre.upper() => 'JIMMY '
+- .capitalize() convertir la primera letra en mayúscula
+    nombre = nombre.capitalize() => 'Jimmy '
+- .strip() elimina espacio que puedan estar al inicio o al final
+    nombre = nombre.strip() => 'Jimmy'
+- .lower() convertir a minusculas
+    nombre = nombre.lower() => 'jimmy'
+- .replace() reemplazar letras por otras
+    nombre = nombre.replace('i', 'o' ) => 'jommy'
+
+Indice se puede acceder a los caracteres que tiene una cadena de caracteres
+- indice nombre[0]
+    'j'
+- len(nombre) cuanta el número de caracteres
+
+Built-in Functions
+![alt text](https://static.platzi.com/media/user_upload/Build-int%20functions-e1b3d053-5c76-4ffe-b6b3-5a61e062d77c.jpg)
+
