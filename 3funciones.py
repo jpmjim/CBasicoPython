@@ -22,3 +22,12 @@ elif opcion == 3:
   conversacion('Elegiste la opción 3')
 else:
   print('Escribe la opción correcta')
+
+
+def suma(a, b):
+  print('Se suman dos números')
+  resultado = a + b
+  return resultado
+
+sumatoria = suma(1, 4)
+print(sumatoria)
