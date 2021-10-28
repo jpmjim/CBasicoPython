@@ -69,3 +69,13 @@ Indice se puede acceder a los caracteres que tiene una cadena de caracteres
 Built-in Functions
 ![alt text](https://static.platzi.com/media/user_upload/Build-int%20functions-e1b3d053-5c76-4ffe-b6b3-5a61e062d77c.jpg)
 
+Trabajando con texto: slices
+----------------------------
+Ejemplo:
+  nombre = "Francisco"
+  - nombre[0:3] o nombre[:3] => 'Fra' es una rebanada
+  - nombre[3:] => 'ncisco'
+  - nombre[1:7] => 'rancis'
+  - nombre[1:7:2] => 'rni'  "el 2 es número de pasos que debe realizar"
+  - nombre[1::3] => 'rcc' "pasos de 3 en 3"
+  - nombre[::-1] => 'ocsicnarF' "nos devuelve en pasos inversos al reves"
