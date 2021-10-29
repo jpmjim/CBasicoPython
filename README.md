@@ -97,3 +97,7 @@ Tuplas
 ------
 Conjunto inmutable de valores ordenados eficientes son estaticos. Entre "( )"
 - mi_tupla = (1, 2, 3, 4, 5) => Son estaticos no se pueden agregar ni borrar nuevos elementos
+
+Diccionarios
+------------
+Son una estructura de datos mutable las cuales almacenan diferentes tipos de valores sin darle importancia a su orden. Identifican a cada elemento por una clave (Key). Se escriben entre {}.
