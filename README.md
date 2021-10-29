@@ -79,3 +79,16 @@ Ejemplo:
   - nombre[1:7:2] => 'rni'  "el 2 es número de pasos que debe realizar"
   - nombre[1::3] => 'rcc' "pasos de 3 en 3"
   - nombre[::-1] => 'ocsicnarF' "nos devuelve en pasos inversos al reves"
+
+Listas
+------
+Puede contener de mismoo tipo o de diferente tipo
+- numeros = [1, 3, 6, 8, 9, 45, 90] 
+- objetos = ['hola', 3, 4.5, True]
+
+- objetos.append(False) => Agregar elementos a mi lista
+- objetos.pop(indice) => Eliminar elementos a la lista
+- for elemento in objetos => Para imprimir cada uno de los elementos 
+      print(elemento)
+- objetos[::-1] => tener la lista al reves
+- objetos[1:3 => rango entre elementos]
