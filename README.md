@@ -82,7 +82,7 @@ Ejemplo:
 
 Listas
 ------
-Puede contener de mismoo tipo o de diferente tipo
+Puede contener de mismo tipo o de diferente tipo son dinámicas. Se utilizan entre "[ ]"
 - numeros = [1, 3, 6, 8, 9, 45, 90] 
 - objetos = ['hola', 3, 4.5, True]
 
@@ -92,3 +92,8 @@ Puede contener de mismoo tipo o de diferente tipo
       print(elemento)
 - objetos[::-1] => tener la lista al reves
 - objetos[1:3 => rango entre elementos]
+
+Tuplas
+------
+Conjunto inmutable de valores ordenados eficientes son estaticos. Entre "( )"
+- mi_tupla = (1, 2, 3, 4, 5) => Son estaticos no se pueden agregar ni borrar nuevos elementos
